@@ -1,0 +1,7 @@
+.tachado {
+    text-decoration: line-through;
+}
+
+.pending-tasks{
+    border: solid 2em;
+}

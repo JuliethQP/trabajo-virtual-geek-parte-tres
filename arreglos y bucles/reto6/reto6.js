@@ -15,4 +15,5 @@ const myFunction=(e)=>{
         mensaje.innerHTML+= (`"${movie}" ¡ A mí también me encantó `);
     } 
 }
+
 document.getElementById("myForm").addEventListener("submit", myFunction);

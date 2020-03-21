@@ -8,11 +8,10 @@ const contador={
 
 }
 contador.aumentar = function() {
-
-  
     this.valor_actual = this.valor_actual+this.aumentar_valor;
     return this.valor_actual;
 }
+console.log(contador.aumentar());
 
 contador.disminuir = function() {
     
@@ -20,18 +19,15 @@ contador.disminuir = function() {
 
     return this.valor_actual;
 }
+console.log(contador.disminuir());
+
 contador.restablecer = function() {
        this.valor_actual= 0;
     return this.valor_actual;
 }
-
-console.log(contador.disminuir());
-console.log(contador.aumentar());
-console.log(contador.aumentar());
-
-console.log(contador.disminuir());
 console.log(contador.restablecer());
-console.log(contador.valor_actual);
+
+
 
 
 
